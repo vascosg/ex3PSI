@@ -20,4 +20,6 @@ router.get("/pet/:id", pet_controller.pet_detail);
 
 router.post("/hero", hero_controller.hero_create_post);
 
+router.post("/pet", pet_controller.pet_create_post);
+
 module.exports = router;
